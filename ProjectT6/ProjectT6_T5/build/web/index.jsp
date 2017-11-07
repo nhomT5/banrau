@@ -1,8 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : Oct 26, 2017, 3:36:42 PM
-    Author     : erago
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
