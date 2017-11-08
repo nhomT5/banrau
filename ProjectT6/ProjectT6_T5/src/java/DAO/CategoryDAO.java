@@ -9,7 +9,6 @@ package DAO;
  *
  * @author HOANG
  */
-
 import DB.DBConnect;
 import static DB.DBConnect.getConnection;
 import java.sql.Connection;
@@ -36,6 +35,48 @@ public class CategoryDAO {
             list.add(category);
         }
         return list;
+    }
+
+    public boolean insert(Category c) throws SQLException {
+        try {
+            Connection connection = DBConnect.getConnection();
+            String sql = "INSERT INTO category VALUE(?,?,?,?,?,?,?)";
+            PreparedStatement ps = connection.prepareCall(sql);
+            ps.setLong(1, c.getCategoryID());
+            ps.setString(2, c.getCategoryName());
+            ps.setString(3, c.getMetaTitle());
+            int temp = ps.executeUpdate();
+            return temp == 1;
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    public boolean update(Category c) throws SQLException {
+        try {
+            Connection connection = DBConnect.getConnection();
+            String sql = "UPDATE category SET category_name = ? WHERE category_id = ?";
+            PreparedStatement ps = connection.prepareCall(sql);
+            ps.setString(1, c.getCategoryName());
+            ps.setLong(2, c.getCategoryID());
+            int temp = ps.executeUpdate();
+            return temp == 1;
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    public boolean delete(long category_id) throws SQLException {
+        try {
+            Connection connection = DBConnect.getConnection();
+            String sql = "DELETE FROM category WHERE category_id = ?";
+            PreparedStatement ps = connection.prepareCall(sql);
+            ps.setLong(1, category_id);
+            int temp = ps.executeUpdate();
+            return temp == 1;
+        } catch (Exception e) {
+            return false;
+        }
     }
 
     public static void main(String[] args) throws SQLException {
