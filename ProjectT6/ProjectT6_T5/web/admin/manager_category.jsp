@@ -4,6 +4,9 @@
     Author     : erago
 --%>
 
+<%@page import="Model.Category"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="DAO.CategoryDAO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
@@ -16,7 +19,10 @@
         <script src="${root}/js/jquery-1.11.1.min.js"></script>
     </head>
     <body>
-
+        <%
+            CategoryDAO cate = new CategoryDAO();
+            ArrayList<Category> listCate = cate.getListCategory();
+            %>
         <jsp:include page="header.jsp"></jsp:include>
 
             <div id="wrapper">
@@ -26,48 +32,48 @@
                 <div id="rightContent">
                     <h3>Danh mục</h3>
 
-
-                    <div class="informasi">
-                        ini adalah notifikasi pertanda informasi
-                    </div>
-
-                    <div class="gagal">
-                        ini adalah notifikasi pertanda gagal
-                    </div>
-
-                    <div class="sukses">
-                        ini adalah notifikasi pertanda sukses
-                    </div>
                     <table class="data">
                         <tr class="data">
-                            <th class="data" width="30px">No</th>
-                            <th class="data">Nama</th>
-                            <th class="data">Email</th>
-                            <th class="data">Telepon</th>
-                            <th class="data" width="75px">Pilihan</th>
+                            <th class="data" width="30px">STT</th>
+                            <th class="data">ID</th>
+                            <th class="data">Tên danh mục</th>
+                            <th class="data">Mô tả</th>
+                            <th class="data" width="75px">Thao tác</th>
+                            
                         </tr>
+                    <%
+                        int i=0;
+                        for(Category category : listCate){
+                        i++;
+                    %>
+                    
+                       
                         <tr class="data">
-                            <td class="data" width="30px">1</td>
-                            <td class="data">Data Anda</td>
-                            <td class="data">Data Anda</td>
-                            <td class="data">Data Anda</td>
+                            
+                            <td class="data" width="30px"><%=i%></td>
+                            <td class="data"><%=category.getCategoryID()%></td>
+                            <td class="data"><%=category.getCategoryName()%></td>
+                            <td class="data"><%=category.getMetaTitle()%></td>
+                            
                             <td class="data" width="75px">
                         <center>
-                            <a href="#"><img src="../img/oke.png"></a>&nbsp;&nbsp;&nbsp;
-                            <a href="#"><img src="../img/detail.png"></a>
+                            <a href="#">Sửa</a>&nbsp;&nbsp; | &nbsp;&nbsp;
+                            <a href="#">Xóa</a>
                         </center>
                         </td>
                         </tr>
+                        <%}%>
                     </table>
 
-                <jsp:include page="footer.jsp"></jsp:include> 
-
+                
                 </div>
+                    <div class="clear"></div>
+                    <jsp:include page="footer.jsp"></jsp:include> 
+
             </div>
 
-        <jsp:include page="footer.jsp"></jsp:include> 
-
-    </div>
+        
+   
 
 </body>
 </html>

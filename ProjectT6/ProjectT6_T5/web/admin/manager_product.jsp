@@ -26,17 +26,6 @@
                 <div id="rightContent">
                     <h3>Sản phẩm</h3>
 
-                    <div class="informasi">
-                        ini adalah notifikasi pertanda informasi
-                    </div>
-
-                    <div class="gagal">
-                        ini adalah notifikasi pertanda gagal
-                    </div>
-
-                    <div class="sukses">
-                        ini adalah notifikasi pertanda sukses
-                    </div>
                     <table class="data">
                         <tr class="data">
                             <th class="data" width="30px">No</th>
@@ -59,9 +48,11 @@
                         </tr>
                     </table>
 
-                <jsp:include page="footer.jsp"></jsp:include> 
-
+                
             </div>
+            <div class="clear"></div>
+            <jsp:include page="footer.jsp"></jsp:include> 
 
+        </div>
     </body>
 </html>

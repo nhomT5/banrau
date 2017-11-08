@@ -24,18 +24,8 @@
             <jsp:include page="menu.jsp"></jsp:include>
 
                 <div id="rightContent">
-                    <h3>Sản phẩm</h3>
+                    <h3>Quản lí hóa đơn</h3>
 
-                    <div class="informasi">
-                        ini adalah notifikasi pertanda informasi
-                    </div>
-
-                    <div class="gagal">
-                        ini adalah notifikasi pertanda gagal
-                    </div>
-
-                    <div class="sukses">
-                        ini adalah notifikasi pertanda sukses
                     </div>
                     <table class="data">
                         <tr class="data">
@@ -58,7 +48,8 @@
                         </td>
                         </tr>
                     </table>
-
+                </div>
+            <div class="clear"></div>
                 <jsp:include page="footer.jsp"></jsp:include> 
 
             </div>

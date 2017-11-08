@@ -40,7 +40,7 @@ public class CategoryDAO {
     public boolean insert(Category c) throws SQLException {
         try {
             Connection connection = DBConnect.getConnection();
-            String sql = "INSERT INTO category VALUE(?,?,?,?,?,?,?)";
+            String sql = "INSERT INTO category VALUE(?,?,?)";
             PreparedStatement ps = connection.prepareCall(sql);
             ps.setLong(1, c.getCategoryID());
             ps.setString(2, c.getCategoryName());
