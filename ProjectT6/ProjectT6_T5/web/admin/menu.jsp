@@ -14,7 +14,7 @@
     <body>
         <div id="leftBar">
             <ul>
-                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="index.jsp">Home</a></li>
                 <li><a href="tabel.html">Tabel</a></li>
                 <li><a href="form.html">Form</a></li>
             </ul>
