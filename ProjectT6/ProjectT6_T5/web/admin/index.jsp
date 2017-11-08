@@ -13,7 +13,7 @@
         <title>Admin</title>
 
         <c:set var="root" value="${pageContext.request.contextPath}"/>
-        <link href="${root}/css/bootstrap.css" rel='stylesheet' type='text/css' />
+        <link href="${root}/css/mos-style.css" rel='stylesheet' type='text/css' />
         <script src="${root}/js/jquery-1.11.1.min.js"></script>
 
     </head>
