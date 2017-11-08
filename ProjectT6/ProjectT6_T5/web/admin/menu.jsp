@@ -17,6 +17,7 @@
                 <li><a href="index.jsp">Home</a></li>
                 <li><a href="manager_category.jsp">Danh mục</a></li>
                 <li><a href="manager_product.jsp">Sản phẩm</a></li>
+                <li><a href="manager_bill.jsp">Hóa đơn</a></li>
             </ul>
         </div>
     </body>
