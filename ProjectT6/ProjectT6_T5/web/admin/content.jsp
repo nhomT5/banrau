@@ -20,22 +20,22 @@
                 <i style="color: #5b5b5b;">"If you think you can, you really can"</i>
             </div>
             <div class="shortcutHome">
-                <a href=""><img src="mos-css/img/posting.png"><br>Tambah Posting</a>
+                <a href=""><img src="../img/posting.png"><br>Tambah Posting</a>
             </div>
             <div class="shortcutHome">
-                <a href=""><img src="mos-css/img/photo.png"><br>Upload Foto</a>
+                <a href=""><img src="../img/photo.png"><br>Upload Foto</a>
             </div>
             <div class="shortcutHome">
-                <a href=""><img src="mos-css/img/halaman.png"><br>Tambah Halaman</a>
+                <a href=""><img src="../img/halaman.png"><br>Tambah Halaman</a>
             </div>
             <div class="shortcutHome">
-                <a href=""><img src="mos-css/img/template.png"><br>Pengaturan Template</a>
+                <a href=""><img src="../img/template.png"><br>Pengaturan Template</a>
             </div>
             <div class="shortcutHome">
-                <a href=""><img src="mos-css/img/quote.png"><br>Tambah QOD</a>
+                <a href=""><img src="../img/quote.png"><br>Tambah QOD</a>
             </div>
             <div class="shortcutHome">
-                <a href=""><img src="mos-css/img/bukutamu.png"><br>Data Buku Tamu</a>
+                <a href=""><img src="../img/bukutamu.png"><br>Data Buku Tamu</a>
             </div>
 
             <div class="clear"></div>

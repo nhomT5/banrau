@@ -15,8 +15,8 @@
         <div id="leftBar">
             <ul>
                 <li><a href="index.jsp">Home</a></li>
-                <li><a href="tabel.html">Tabel</a></li>
-                <li><a href="form.html">Form</a></li>
+                <li><a href="manager_category.jsp">Danh mục</a></li>
+                <li><a href="manager_product.jsp">Sản phẩm</a></li>
             </ul>
         </div>
     </body>

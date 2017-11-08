@@ -3,13 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/PM/GITHUB/banrau/ProjectT6/ProjectT6_T5/src/java/DB/DBConnect.java</file>
-            <file>file:/D:/PM/GITHUB/banrau/ProjectT6/ProjectT6_T5/web/admin/content.jsp</file>
-            <file>file:/D:/PM/GITHUB/banrau/ProjectT6/ProjectT6_T5/web/admin/footer.jsp</file>
+            <file>file:/D:/PM/GITHUB/banrau/ProjectT6/ProjectT6_T5/web/css/mos-style.css</file>
             <file>file:/D:/PM/GITHUB/banrau/ProjectT6/ProjectT6_T5/web/admin/index.jsp</file>
             <file>file:/D:/PM/GITHUB/banrau/ProjectT6/ProjectT6_T5/web/admin/menu.jsp</file>
-            <file>file:/D:/PM/GITHUB/banrau/ProjectT6/ProjectT6_T5/web/index.jsp</file>
-            <file>file:/D:/PM/GITHUB/banrau/ProjectT6/ProjectT6_T5/web/admin/header.jsp</file>
+            <file>file:/D:/PM/GITHUB/banrau/ProjectT6/ProjectT6_T5/web/admin/manager-product.jsp</file>
+            <file>file:/D:/PM/GITHUB/banrau/ProjectT6/ProjectT6_T5/web/admin/manager-category.jsp</file>
         </group>
     </open-files>
 </project-private>
