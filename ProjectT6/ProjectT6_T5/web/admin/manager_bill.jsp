@@ -26,7 +26,7 @@
                 <div id="rightContent">
                     <h3>Quản lí hóa đơn</h3>
 
-                    </div>
+                    
                     <table class="data">
                         <tr class="data">
                             <th class="data" width="30px">No</th>

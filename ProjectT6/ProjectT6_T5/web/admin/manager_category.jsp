@@ -31,6 +31,7 @@
 
                 <div id="rightContent">
                     <h3>Danh mục</h3>
+                    <a href="insert_category.jsp">Thêm danh mục</a>
 
                     <table class="data">
                         <tr class="data">
